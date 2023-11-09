@@ -1,0 +1,118 @@
+@font-face {
+  font-family: 'Chelsea';
+  src: url('https://cdn.glitch.global/5b7021ab-2130-4d07-ae06-9cd192328d35/ChelseaMarket-Regular.ttf?v=1698787034532'),
+       
+}
+
+body {
+  display: flex;
+  min-height: 100vh; /* Full viewport height */
+  flex-direction: column; /* Stack the children vertically */
+  margin: 0;
+  font-family: Arial, sans-serif;
+  font-family: Chelsea ,sans-serif ;
+ 
+  
+}
+
+header {
+  box-shadow: 0px 2px 3px rgba(0, 0, 0, .4);
+  z-index: 100;
+  background-color: #ddbea9;
+  color: #6d504c;
+  padding-left: 20px; 
+}
+
+h3 {
+  margin: 7px 0px 0px 0px;
+  background-color: #ddb892;
+   padding-left: 20px; 
+  
+  
+}
+
+#app {
+ z-index: 50;
+ flex: 1; /* To allow the container to grow and consume the available space */
+ display: flex;
+ flex-direction: column;
+  background-color: #e6ccb2;
+  
+}
+
+main {
+  flex: 1; /* To allow main to grow and consume the available space */
+   padding-left: 20px; 
+
+}
+
+.canvas-holder {
+  position: relative;
+  background-color: #e6ccb2;
+   padding-left: 30%; 
+}
+
+
+button {
+  font-size: 16px;
+  margin: 2px;
+  background-color: #caffbf;
+  border-radius: 20px;
+  color: black;
+}
+
+button.active {
+  background-color: #ffc2d1
+}
+
+
+canvas {
+  position: relative;
+  margin: 10px;
+  border: 3px solid black;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, .5);
+  
+  
+}
+
+.tools {
+  max-width: 300px;
+  
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, .5);
+  padding-left: 40px; 
+  padding-top: 20px; 
+  
+}
+
+.system-controls {
+  margin: 3px;
+  border-radius: 10px;
+    background-color: #ede0d4;
+  flex: 1;
+  padding: 3px;
+  border: 3px solid rgba(0, 0, 0, .2);
+  
+}
+
+.system-controls-title {
+  font-weight: bold;
+}
+
+.columns {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+}
+
+.column {
+  overflow: scroll;
+  flex: 1;
+  padding-left: 20px; 
+
+}
+
+.slider-label {
+  font-size: 80%;
+  font-style: italic;
+  
+}
