@@ -9,7 +9,7 @@ Made with: JavaScript, CSS, HTML and p5.js
 link: https://fungifs.glitch.me/
 
 
-#2.  Drawing-Tool
+# 2.  Drawing-Tool
 A fun Drawing Tool  Website with Special Brushes
 
 link: https://drawingtool.glitch.me/
