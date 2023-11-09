@@ -38,3 +38,9 @@ This project allows users to generate and customize various art forms in a laten
 
 Made with JavaScript, CSS, HTML and p5.js
 <img width="800" alt="Screen Shot 2023-10-31 at 8 57 06 PM" src="https://github.com/melisaozdoyuran2001/Parametric-Spaces/assets/123209674/61c2eeae-b65b-4694-b59f-95614b2c1bd1">
+
+# 5. Chatbots 
+
+link: https://melisas-chat-bots.glitch.me/
+
+The chatbots project is focused on creating interactive bots that engage with users through listening to inputs, processing information, and responding both textually and visually. Each bot has its unique personality and reacts to specific prompts, such as drawing on a canvas or changing moods based on keywords. The project leverages Vue.js for the UI components, p5.js for visual displays, Tracery grammar for dynamic text generation, and custom methods for varied responses. The aim is to build bots that can perform actions like counting or drawing in response to user interaction, with at least three distinct behaviors and a styled presentation.
