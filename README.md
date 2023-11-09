@@ -16,6 +16,8 @@ link: https://drawingtool.glitch.me/
 
 Made with: JavaScript, CSS, HTML and p5.js
 
+
+
 ![MelisaOzdoyuran_a3](https://github.com/melisaozdoyuran2001/Drawing-Tool/assets/123209674/48d93141-e995-426c-b9e7-a253a35a45ca)
 
 # 3. Swarms
@@ -24,6 +26,8 @@ Dynamic swarms via particle systems
 Made with: JavaScript, CSS, HTML and p5.js
 
 link: https://swarms-paticle-systems.glitch.me/
+
+
 <img width="600" alt="Screen Shot 2023-11-09 at 1 50 00 PM" src="https://github.com/melisaozdoyuran2001/generative-art-dev/assets/123209674/a36477cc-677d-4598-9938-ceb582b301ed">
 
 
@@ -34,6 +38,8 @@ link : https://parametric-spaces.glitch.me/
 
 
 This project allows users to generate and customize various art forms in a latent space. Users can create houses, gummy bears, and boba teas, each with adjustable characteristics like color, size, and shape. The art forms are created using DNA-like arrays, providing a unique and interactive way to explore creativity.
+
+
 <img width="600" alt="Screen Shot 2023-11-09 at 1 49 21 PM" src="https://github.com/melisaozdoyuran2001/generative-art-dev/assets/123209674/16bd4518-c985-48a7-ae59-8a219f09d462">
 
 Made with JavaScript, CSS, HTML and p5.js
