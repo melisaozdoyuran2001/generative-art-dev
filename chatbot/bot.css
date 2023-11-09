@@ -1,0 +1,103 @@
+
+/*
+CUSTOMIZE YOUR BOT STYLES HERE, 
+If you use .bot-mybotname, it will only apply when that bot is active
+*/
+
+
+/* e.g., make it pink */
+#app.bot-drawingbot  {
+	background-color: lightpink;
+}
+
+.bot-drawingbot .chat-messages-holder {
+	margin: 2px;
+	border-radius: 10px;
+	background-color: hotpink;
+
+	border: 2px solid magenta;
+}
+
+.bot-drawingbot .message-text {
+	background-color: white;
+}
+
+.bot-drawingbot .message-text {
+	background-color: white;
+}
+
+.bot-drawingbot .message-row-bot {
+	font-family: monospace;
+}
+.bot-drawingbot .message-row-user {
+	font-family: cursive;
+}
+
+
+
+
+#app.bot-spacedrawbot  {
+	background-color: darkblue;
+}
+
+.bot-spacedrawbot .chat-messages-holder {
+	margin: 2px;
+	border-radius: 10px;
+	background-color: lightblue;
+
+	border: 2px solid yellow;
+}
+
+.bot-spacedrawbot .message-text {
+	background-color: white;
+}
+
+
+
+.bot-spacedrawbot .message-row-bot {
+	font-family: monospace;
+}
+.bot-spacedrawbot .message-row-user {
+	font-family: cursive;
+}
+
+
+
+
+#app.bot-fruitField  {
+	background-color: #654321;
+}
+
+.bot-fruitField .chat-messages-holder {
+	margin: 2px;
+	border-radius: 10px;
+	background-color: #74b72e;
+
+	border: 2px solid yellow;
+}
+
+.bot-fruitField .message-text {
+	background-color: lightgreen;
+}
+
+
+
+.bot-fruitField .message-row-bot {
+	font-family: monospace;
+}
+.bot-fruitField .message-row-user {
+	font-family: cursive;
+}
+
+
+.bot-storyletbot {
+  background-color: hsla(210, 90%, 10%, 1);
+  color: white;
+}
+
+.bot-storyletbot .panel {
+ background-image: url(https://media.giphy.com/media/U3qYN8S0j3bpK/giphy.gif);
+  background-color: hsla(210, 90%, 20%, 1);
+  
+  border: white;
+}
