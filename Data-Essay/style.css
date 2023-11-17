@@ -1,0 +1,277 @@
+@font-face {
+  font-family: 'font';
+  src: url('https://cdn.glitch.global/34c7e0c8-bff7-41df-bbe7-97c590ed82fa/MPLUSRounded1c-Medium.ttf?v=1699909550015'),
+       
+}
+
+@font-face {
+  font-family: 'famcy';
+  src: url('https://cdn.glitch.global/34c7e0c8-bff7-41df-bbe7-97c590ed82fa/CairoPlay-VariableFont_slnt%2Cwght.ttf?v=1699995835690'),
+       
+}
+
+@font-face {
+  font-family: 'quick';
+  src: url('https://cdn.glitch.global/34c7e0c8-bff7-41df-bbe7-97c590ed82fa/Quicksand-VariableFont_wght.ttf?v=1699996089253'),
+       
+}
+
+
+
+#title {
+  font-family: famcy, sans-serif; 
+  font-size: 20px;
+  padding: 5px; 
+}
+
+body {
+  display: flex;
+  height: 100vh; /* Full viewport height */
+  flex-direction: column; /* Stack the children vertically */
+  margin: 0;
+  font-family: famcy, sans-serif;
+  background-color: #e9edc9;
+ 
+}
+
+header {
+  box-shadow: 0px 2px 3px rgba(0, 0, 0, .4);
+  z-index: 100;
+  text-align: center; 
+  background-color: #ccd5ae;
+  
+}
+
+h3 {
+  margin: 7px 0px 0px 0px;
+ 
+}
+
+#app {
+ z-index: 50;
+ flex: 1; /* To allow the container to grow and consume the available space */
+ display: flex;
+ flex-direction: column;
+ overflow: scroll;
+ 
+}
+
+main {
+  flex: 1; /* To allow main to grow and consume the available space */
+  
+
+}
+
+.canvas-holder {
+  position: relative;
+  background-color: grey;
+   background-color: #ddb892;
+}
+
+
+button {
+  font-size: 16px;
+  padding: 8px 15px;
+  margin: 5px;
+  border: none;
+  border-radius: 5px;
+  background-image: linear-gradient(to right, #a1c4fd, #c2e9fb);
+  color: white;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease;
+  cursor: pointer;
+  font-family: font, sans-serif;
+}
+
+button:hover {
+  background-image: linear-gradient(to right, #c2e9fb, #a1c4fd);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+button.active {
+  background-color: hsl(150, 80%, 40%);
+  color: #ffffff;
+}
+
+button:active {
+  transform: translateY(2px);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+}
+
+
+canvas {
+  position: relative;
+  margin: 10px;
+  border: 3px solid black;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, .5);
+ 
+}
+
+.tools {
+  max-width: 300px;
+  
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, .5);
+}
+
+.system-controls {
+  margin: 3px;
+  border-radius: 10px;
+    background-color: white;
+  flex: 1;
+  padding: 3px;
+  border: 3px solid rgba(0, 0, 0, .2);
+}
+
+.system-controls-title {
+  font-weight: bold;
+}
+
+.columns {
+   overflow: hidden;
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  flex: 1;
+
+}
+
+.slider-label {
+  font-size: 80%;
+  font-style: italic;
+}
+.panel {
+  flex: 1
+}
+
+/*==================================================================*/
+/* VIZ
+*/
+
+
+section {
+  position: relative;
+  margin: 10px auto;
+  background: linear-gradient(to right, #fefae0, #fcd5ce); /* Adding a gradient */
+  border-radius: 15px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow */
+  padding: 25px;
+  text-align: center; 
+  justify-content:center; 
+  width: 560px;
+  margin-top: 20px;
+  overflow: scroll ;
+ 
+  font-family: quick, sans-serif;
+  transition: all 0.3s ease; /* Smooth transition for hover effects */
+}
+
+section:hover {
+  transform: scale(1.03); /* Slight zoom on hover */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Deeper shadow on hover */
+}
+
+section p {
+  width: 550px;
+}
+
+
+
+section .viz {
+  position: relative;
+  background-color: #fff0f3;
+  border-radius: 10px;
+  box-shadow: inset 1px 2px 5px rgba(0, 0, 0, .4);
+  padding: 10px;
+  width: 530px; 
+  height: 350px; 
+  margin: 10px auto;
+  overflow-x: hidden; 
+  overflow-y: auto; 
+  margin: 10px auto;
+  
+}
+
+.pokemon-chip {
+  margin: 2px;
+  padding: 1px 3px;
+  border-radius: 20px;
+  display: inline-block;
+  background-color: white;
+  box-shadow: 1px 2px 5px rgba(0, 0, 0, .4);
+  
+  
+}
+
+
+.art{
+  width:60px;
+  z-index: 100;
+  position: relative;
+}
+
+.art:hover{
+  width:100px;
+  z-index: 200;
+  position: relative;
+}
+
+
+.artlabel{
+  display: inline-block;
+  position: absolute;
+  background-color: black;
+  color: white;
+}
+.art img {
+  width: 50px;
+}
+
+.art img:hover {
+  width: 80px;
+}
+
+
+.billionaire-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px; /* Adjust the gap as needed */
+}
+
+.billionaire-item {
+  flex: 0 1 calc(33.333% - 10px); /* 3 items per row, adjust the percentage for more or fewer items */
+  /* Additional styling for each item */
+  padding: 10px;
+  border: 1px solid #cccccc;
+  border-radius: 5px;
+  transition: transform 0.3s ease; 
+}
+
+.billionaire-item:hover {
+  transform: scale(1.1); /* Scale up the item slightly on hover */
+  cursor: pointer; /* Change cursor to indicate interactivity */
+}
+
+.b-name {
+  cursor: pointer;
+  transition: transform 0.3s ease; 
+  
+}
+
+.b-name:hover {
+  color: red;
+  transform: scale(1.15);
+}
+
+.infoss {
+  color:red; 
+}
