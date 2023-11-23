@@ -57,4 +57,20 @@ The chatbots project is focused on creating interactive bots that engage with us
 link: [https://melisas-chat-bots.glitch.me/](https://data-essays.glitch.me/)https://data-essays.glitch.me/
 
 Unraveling the stories of wealth and success through visual essays. 
+<img width="1354" alt="Screen Shot 2023-11-22 at 11 02 25 PM" src="https://github.com/melisaozdoyuran2001/generative-art-dev/assets/123209674/6b8561eb-f1b6-4730-8ce9-a0b72339ea23">
+
+
+# 6. Digital Masks
+
+link:[ [https://melisas-chat-bots.glitch.me/](https://data-essays.glitch.me/)https://data-essays.glitch.me/](https://digital-mask.glitch.me/)
+
+Interactive Masks with Secondary Motion and Hand Tracking
+<img width="1354" alt="Screen Shot 2023-11-22 at 11 02 25 PM" src="https://github.com/melisaozdoyuran2001/g
+
+
+<img width="300" alt="Screen Shot 2023-11-22 at 11 03 32 PM" src="https://github.com/melisaozdoyuran2001/generative-art-dev/assets/123209674/33b2dadc-aabc-4a2d-9c58-fd77aa61ffaa">
+
+
+<img width="300" alt="Screen Shot 2023-11-22 at 11 03 52 PM" src="https://github.com/melisaozdoyuran2001/generative-art-dev/assets/123209674/1769b717-2dca-4a87-9249-d113436bae94">
+
 
