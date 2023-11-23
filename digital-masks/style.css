@@ -1,0 +1,128 @@
+@font-face {
+  font-family: 'font';
+  src: url('https://cdn.glitch.global/d2c08898-4c77-4247-b225-952f186a4813/ZenKakuGothicNew-Medium.ttf?v=1700619005157'),
+       
+}
+
+
+body {
+  display: flex;
+  height: 100vh; /* Full viewport height */
+  flex-direction: column; /* Stack the children vertically */
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: black; 
+  color: white; 
+  font-family: font; 
+}
+
+header {
+  box-shadow: 0px 2px 3px rgba(0, 0, 0, .4);
+  z-index: 100;
+  
+}
+
+h3 {
+  margin: 7px 0px 0px 0px;
+}
+
+#app {
+ z-index: 50;
+ flex: 1; /* To allow the container to grow and consume the available space */
+ display: flex;
+ flex-direction: column;
+ overflow: hidden;
+}
+
+main {
+  flex: 1; /* To allow main to grow and consume the available space */
+   
+
+}
+
+.canvas-holder {
+  position: relative;
+  background-color: grey;
+
+}
+
+
+button {
+  font-size: 14px;
+  margin: 12px 12px 12px 0; 
+  padding: 4px 12px;
+  background-color: lightgreen;
+  border-radius: 30px;
+  border: none; 
+  transition: background-color 0.5s ease, transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer; 
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); 
+  outline: none; 
+  font-weight: bold;
+}
+
+button:hover {
+  background-color: lightblue;
+  transform: scale(1.05);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); 
+}
+
+
+button.active {
+  background-color: hsl(100, 100%, 50%);
+}
+
+
+canvas {
+  position: relative;
+  margin: 10px;
+  border: 3px solid black;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, .5);
+  margin-left: 30%; 
+  margin-top: 20px; 
+}
+
+.tools {
+  max-width: 300px;
+ 
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, .5);
+}
+
+.controls {
+  display: flex;
+  flex-direction: row;
+   margin-left: 30%; 
+  width: 900px;
+}
+
+
+.controls-section {
+  margin: 10px;
+  padding: 6px;
+
+  box-shadow: 0px 2px 1px rgba(0, 0, 0, .5);
+}
+
+.columns {
+   overflow: hidden;
+  flex: 1;s
+  display: flex;
+  flex-direction: row;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  flex: 1;
+
+}
+
+.slider-label {
+  font-size: 80%;
+  font-style: italic;
+}
+.panel {
+  flex: 1
+}
+
