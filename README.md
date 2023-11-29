@@ -56,7 +56,7 @@ The chatbots project is focused on creating interactive bots that engage with us
 
 # 6. Data Visualization Essays 
 
-link: [https://melisas-chat-bots.glitch.me/](https://data-essays.glitch.me/)https://data-essays.glitch.me/
+link:https://data-essays.glitch.me/
 
 Unraveling the stories of wealth and success through visual essays. 
 
@@ -65,7 +65,7 @@ Unraveling the stories of wealth and success through visual essays.
 
 # 6. Digital Masks
 
-link:[ (https://digital-mask.glitch.me/)
+link: https://digital-mask.glitch.me/
 
 Interactive Masks with Secondary Motion and Hand Tracking
 
