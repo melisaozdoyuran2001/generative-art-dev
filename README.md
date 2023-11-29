@@ -68,8 +68,6 @@ Unraveling the stories of wealth and success through visual essays.
 link:[ [https://melisas-chat-bots.glitch.me/](https://data-essays.glitch.me/)https://data-essays.glitch.me/](https://digital-mask.glitch.me/)
 
 Interactive Masks with Secondary Motion and Hand Tracking
-<img width="1354" alt="Screen Shot 2023-11-22 at 11 02 25 PM" src="https://github.com/melisaozdoyuran2001/g
-
 
 <img width="300" alt="Screen Shot 2023-11-22 at 11 03 32 PM" src="https://github.com/melisaozdoyuran2001/generative-art-dev/assets/123209674/33b2dadc-aabc-4a2d-9c58-fd77aa61ffaa">
 
