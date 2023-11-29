@@ -65,7 +65,7 @@ Unraveling the stories of wealth and success through visual essays.
 
 # 6. Digital Masks
 
-link:[ [https://melisas-chat-bots.glitch.me/](https://data-essays.glitch.me/)https://data-essays.glitch.me/](https://digital-mask.glitch.me/)
+link:[ (https://digital-mask.glitch.me/)
 
 Interactive Masks with Secondary Motion and Hand Tracking
 
